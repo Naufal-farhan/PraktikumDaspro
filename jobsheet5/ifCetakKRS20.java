@@ -15,6 +15,12 @@ public class ifCetakKRS20{
         System.out.println("Pembayaran terverifikasi");
         System.out.println("Silahkan cetak KRS dan mimnta tanda tangan DPA");
         }
+
+        //if belum lunas
+        else {
+            System.out.println("Pembayaran belum terverifikasi");
+            System.out.println("“Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
+        }
         
     }
 }
