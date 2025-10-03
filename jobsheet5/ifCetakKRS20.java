@@ -10,7 +10,7 @@ public class ifCetakKRS20{
         System.out.println("Apakah UKT Sudah Lunas");
         boolean uktLunas = sc.nextBoolean();
 
-        String hasil = (uktLunas) ? "Pembayaran terverifikasi" : "Gagal!!.., Silahkan lakukan pembayaran terlebih dahulu";
+        String hasil = (uktLunas) ? "Pembayaran terverifikasi" : "Gagal!!.., Silahkan lakukan pembayaran terlebih dahulu" ; 
         System.out.println(hasil);        
     }
 }
